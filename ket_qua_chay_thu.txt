@@ -1,0 +1,67 @@
+1) KIỂM TRA DỮ LIỆU
+   Số đỉnh: 28 | Số cạnh: 50 | Số bệnh viện: 4 | Cạnh một chiều: 2
+   -> Dữ liệu HỢP LỆ
+
+2) TÌNH HUỐNG BÌNH THƯỜNG
+
+=== Hiện trường: Trường ĐH Giao thông ===
+  BV Cấp cứu Bắc           8 phút | 2 chặng |  4.3 km | BV Cấp cứu Bắc -> Ga Đường sắt -> Trường ĐH Giao thông
+  BV Nhân dân Đông        14 phút | 3 chặng |  7.1 km | BV Nhân dân Đông -> Nút giao Đông -> Ngã tư Phố Cổ -> Trường ĐH Giao thông
+  BV Đa khoa Trung tâm    19 phút | 4 chặng |  6.8 km | BV Đa khoa Trung tâm -> Ngã tư Trung tâm -> Ngã tư Công viên -> Công viên Trung tâm -> Trường ĐH Giao thông
+  BV Quốc tế Tây          27 phút | 5 chặng | 10.0 km | BV Quốc tế Tây -> Chung cư Hòa Bình -> Ngã tư Trung tâm -> Ngã tư Công viên -> Công viên Trung tâm -> Trường ĐH Giao thông
+  => ĐỀ XUẤT: BV Cấp cứu Bắc - 8 phút
+
+3) TÌNH HUỐNG BẪY KHOẢNG CÁCH
+
+######## TÌNH HUỐNG BẪY KHOẢNG CÁCH: hiện trường = KDC Sao Mai ########
+Bệnh viện              Chim bay (km)  Số chặng  Đường ngắn nhất (km)  THỜI GIAN (phút)
+BV Nhân dân Đông                 4.7         3                   7.2                11
+BV Cấp cứu Bắc                   6.2         4                   7.4                17
+BV Đa khoa Trung tâm             2.7         2                   2.8                18
+BV Quốc tế Tây                   6.9         4                   7.8                33
+
+-> Bệnh viện GẦN nhất (theo km đường đi): BV Đa khoa Trung tâm (2.8 km, 18 phút)
+-> Bệnh viện ĐẾN NHANH nhất (theo phút)   : BV Nhân dân Đông (7.2 km, 11 phút)
+=> BẪY KHOẢNG CÁCH XẢY RA: gần hơn nhưng chậm hơn 7 phút.
+
+=== Hiện trường: KDC Sao Mai ===
+  BV Nhân dân Đông        11 phút | 3 chặng |  7.6 km | BV Nhân dân Đông -> Nút giao Đông -> Ngã ba Sao Mai -> KDC Sao Mai
+  BV Cấp cứu Bắc          17 phút | 4 chặng | 11.5 km | BV Cấp cứu Bắc -> Ga Đường sắt -> Nút giao Đông -> Ngã ba Sao Mai -> KDC Sao Mai
+  BV Đa khoa Trung tâm    18 phút | 2 chặng |  2.8 km | BV Đa khoa Trung tâm -> Cầu Cũ -> KDC Sao Mai
+  BV Quốc tế Tây          33 phút | 5 chặng | 12.5 km | BV Quốc tế Tây -> KĐT Tây Nam -> Ngã ba Nam -> Cầu Mới -> KCN Phía Nam -> KDC Sao Mai
+  => ĐỀ XUẤT: BV Nhân dân Đông - 11 phút
+
+4) KIỂM TRA ĐƯỜNG MỘT CHIỀU (phố chợ: Chợ Trung tâm -> Ngã ba Nam chỉ đi một hướng)
+   Chợ Trung tâm -> Ngã ba Nam: 6 phút | Chợ Trung tâm -> Ngã ba Nam
+   Ngã ba Nam -> Chợ Trung tâm: 20 phút | Ngã ba Nam -> KĐT Tây Nam -> Trường THPT Nguyễn Trãi -> Chợ Trung tâm
+
+5) TÌNH HUỐNG LỖI (địa điểm không tồn tại)
+[LỖI] Địa điểm 'Quảng trường Không Tồn Tại' không tồn tại trong mạng lưới giao thông.
+
+######## BẢNG TỔNG HỢP CHO MỌI ĐỊA ĐIỂM ########
+Hiện trường               BV nhanh nhất (phút)          BV gần nhất (km)              Bẫy?
+Ngã tư Trung tâm          BV Đa khoa Trung tâm (5p)     BV Đa khoa Trung tâm (1.5km)  
+Chợ Trung tâm             BV Đa khoa Trung tâm (8p)     BV Đa khoa Trung tâm (2.0km)  
+Cầu Cũ                    BV Đa khoa Trung tâm (10p)    BV Đa khoa Trung tâm (1.6km)  
+KDC Sao Mai               BV Nhân dân Đông (11p)        BV Đa khoa Trung tâm (2.8km)  CÓ
+Ngã ba Sao Mai            BV Nhân dân Đông (7p)         BV Đa khoa Trung tâm (4.8km)  CÓ
+Nút giao Đông             BV Nhân dân Đông (3p)         BV Nhân dân Đông (2.8km)      
+Bến xe Phía Đông          BV Nhân dân Đông (5p)         BV Nhân dân Đông (2.8km)      
+KCN Phía Nam              BV Nhân dân Đông (15p)        BV Đa khoa Trung tâm (5.1km)  CÓ
+Ngã tư Công viên          BV Cấp cứu Bắc (9p)           BV Đa khoa Trung tâm (3.7km)  CÓ
+Công viên Trung tâm       BV Cấp cứu Bắc (5p)           BV Cấp cứu Bắc (2.4km)        
+Trường ĐH Giao thông      BV Cấp cứu Bắc (8p)           BV Cấp cứu Bắc (4.0km)        
+Ngã ba Bắc                BV Cấp cứu Bắc (9p)           BV Cấp cứu Bắc (3.4km)        
+TTTM Phía Bắc             BV Cấp cứu Bắc (4p)           BV Cấp cứu Bắc (1.9km)        
+Ga Đường sắt              BV Cấp cứu Bắc (4p)           BV Cấp cứu Bắc (2.7km)        
+Chung cư Hòa Bình         BV Quốc tế Tây (5p)           BV Quốc tế Tây (2.2km)        
+Trường THPT Nguyễn Trãi   BV Quốc tế Tây (7p)           BV Quốc tế Tây (2.3km)        
+Ngã tư Tây                BV Quốc tế Tây (6p)           BV Quốc tế Tây (2.6km)        
+KĐT Tây Nam               BV Quốc tế Tây (8p)           BV Quốc tế Tây (2.9km)        
+Cầu Mới                   BV Đa khoa Trung tâm (15p)    BV Đa khoa Trung tâm (3.5km)  
+Ngã ba Nam                BV Đa khoa Trung tâm (14p)    BV Đa khoa Trung tâm (3.8km)  
+Cảng sông                 BV Nhân dân Đông (7p)         BV Nhân dân Đông (3.3km)      
+Ngã tư Phố Cổ             BV Nhân dân Đông (7p)         BV Nhân dân Đông (5.0km)      
+Sân vận động              BV Cấp cứu Bắc (6p)           BV Cấp cứu Bắc (3.3km)        
+Khu du lịch Hồ Xanh       BV Nhân dân Đông (7p)         BV Nhân dân Đông (3.1km)      
+Số địa điểm xảy ra bẫy khoảng cách: 4

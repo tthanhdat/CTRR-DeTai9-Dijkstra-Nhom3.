@@ -1,0 +1,552 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "BV Đa khoa Trung tâm",
+      "type": "BV",
+      "x": 5.0,
+      "y": 4.0
+    },
+    {
+      "id": 1,
+      "name": "BV Nhân dân Đông",
+      "type": "BV",
+      "x": 12.0,
+      "y": 4.5
+    },
+    {
+      "id": 2,
+      "name": "BV Quốc tế Tây",
+      "type": "BV",
+      "x": 0.8,
+      "y": 4.5
+    },
+    {
+      "id": 3,
+      "name": "BV Cấp cứu Bắc",
+      "type": "BV",
+      "x": 6.0,
+      "y": 9.0
+    },
+    {
+      "id": 4,
+      "name": "Ngã tư Trung tâm",
+      "type": "DD",
+      "x": 5.0,
+      "y": 5.5
+    },
+    {
+      "id": 5,
+      "name": "Chợ Trung tâm",
+      "type": "DD",
+      "x": 4.0,
+      "y": 2.5
+    },
+    {
+      "id": 6,
+      "name": "Cầu Cũ",
+      "type": "DD",
+      "x": 6.5,
+      "y": 3.5
+    },
+    {
+      "id": 7,
+      "name": "KDC Sao Mai",
+      "type": "DD",
+      "x": 7.5,
+      "y": 3.0
+    },
+    {
+      "id": 8,
+      "name": "Ngã ba Sao Mai",
+      "type": "DD",
+      "x": 9.0,
+      "y": 4.0
+    },
+    {
+      "id": 9,
+      "name": "Nút giao Đông",
+      "type": "DD",
+      "x": 10.5,
+      "y": 6.0
+    },
+    {
+      "id": 10,
+      "name": "Bến xe Phía Đông",
+      "type": "DD",
+      "x": 10.5,
+      "y": 2.5
+    },
+    {
+      "id": 11,
+      "name": "KCN Phía Nam",
+      "type": "DD",
+      "x": 8.0,
+      "y": 1.0
+    },
+    {
+      "id": 12,
+      "name": "Ngã tư Công viên",
+      "type": "DD",
+      "x": 7.0,
+      "y": 5.5
+    },
+    {
+      "id": 13,
+      "name": "Công viên Trung tâm",
+      "type": "DD",
+      "x": 7.0,
+      "y": 7.0
+    },
+    {
+      "id": 14,
+      "name": "Trường ĐH Giao thông",
+      "type": "DD",
+      "x": 8.5,
+      "y": 7.5
+    },
+    {
+      "id": 15,
+      "name": "Ngã ba Bắc",
+      "type": "DD",
+      "x": 3.5,
+      "y": 7.0
+    },
+    {
+      "id": 16,
+      "name": "TTTM Phía Bắc",
+      "type": "DD",
+      "x": 4.5,
+      "y": 8.0
+    },
+    {
+      "id": 17,
+      "name": "Ga Đường sắt",
+      "type": "DD",
+      "x": 8.5,
+      "y": 9.0
+    },
+    {
+      "id": 18,
+      "name": "Chung cư Hòa Bình",
+      "type": "DD",
+      "x": 2.5,
+      "y": 5.5
+    },
+    {
+      "id": 19,
+      "name": "Trường THPT Nguyễn Trãi",
+      "type": "DD",
+      "x": 2.5,
+      "y": 3.0
+    },
+    {
+      "id": 20,
+      "name": "Ngã tư Tây",
+      "type": "DD",
+      "x": 2.0,
+      "y": 6.5
+    },
+    {
+      "id": 21,
+      "name": "KĐT Tây Nam",
+      "type": "DD",
+      "x": 1.5,
+      "y": 2.0
+    },
+    {
+      "id": 22,
+      "name": "Cầu Mới",
+      "type": "DD",
+      "x": 6.5,
+      "y": 1.8
+    },
+    {
+      "id": 23,
+      "name": "Ngã ba Nam",
+      "type": "DD",
+      "x": 5.0,
+      "y": 1.2
+    },
+    {
+      "id": 24,
+      "name": "Cảng sông",
+      "type": "DD",
+      "x": 11.5,
+      "y": 1.5
+    },
+    {
+      "id": 25,
+      "name": "Ngã tư Phố Cổ",
+      "type": "DD",
+      "x": 8.5,
+      "y": 5.5
+    },
+    {
+      "id": 26,
+      "name": "Sân vận động",
+      "type": "DD",
+      "x": 3.0,
+      "y": 8.5
+    },
+    {
+      "id": 27,
+      "name": "Khu du lịch Hồ Xanh",
+      "type": "DD",
+      "x": 11.5,
+      "y": 7.5
+    }
+  ],
+  "edges": [
+    {
+      "u": 0,
+      "v": 4,
+      "km": 1.5,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 0,
+      "v": 5,
+      "km": 2.0,
+      "minutes": 8,
+      "oneway": false
+    },
+    {
+      "u": 0,
+      "v": 6,
+      "km": 1.6,
+      "minutes": 10,
+      "oneway": false
+    },
+    {
+      "u": 6,
+      "v": 7,
+      "km": 1.2,
+      "minutes": 8,
+      "oneway": false
+    },
+    {
+      "u": 6,
+      "v": 12,
+      "km": 2.3,
+      "minutes": 7,
+      "oneway": false
+    },
+    {
+      "u": 6,
+      "v": 22,
+      "km": 1.9,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 4,
+      "v": 12,
+      "km": 2.2,
+      "minutes": 6,
+      "oneway": false
+    },
+    {
+      "u": 4,
+      "v": 15,
+      "km": 2.2,
+      "minutes": 6,
+      "oneway": false
+    },
+    {
+      "u": 4,
+      "v": 18,
+      "km": 2.5,
+      "minutes": 8,
+      "oneway": false
+    },
+    {
+      "u": 12,
+      "v": 13,
+      "km": 1.5,
+      "minutes": 4,
+      "oneway": false
+    },
+    {
+      "u": 12,
+      "v": 25,
+      "km": 1.5,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 7,
+      "v": 8,
+      "km": 2.0,
+      "minutes": 4,
+      "oneway": false
+    },
+    {
+      "u": 8,
+      "v": 9,
+      "km": 2.8,
+      "minutes": 4,
+      "oneway": false
+    },
+    {
+      "u": 9,
+      "v": 1,
+      "km": 2.8,
+      "minutes": 3,
+      "oneway": false
+    },
+    {
+      "u": 8,
+      "v": 10,
+      "km": 2.4,
+      "minutes": 6,
+      "oneway": false
+    },
+    {
+      "u": 10,
+      "v": 1,
+      "km": 2.8,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 10,
+      "v": 24,
+      "km": 1.6,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 24,
+      "v": 1,
+      "km": 3.3,
+      "minutes": 7,
+      "oneway": false
+    },
+    {
+      "u": 25,
+      "v": 8,
+      "km": 1.7,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 25,
+      "v": 9,
+      "km": 2.2,
+      "minutes": 4,
+      "oneway": false
+    },
+    {
+      "u": 25,
+      "v": 14,
+      "km": 2.1,
+      "minutes": 7,
+      "oneway": false
+    },
+    {
+      "u": 9,
+      "v": 27,
+      "km": 2.0,
+      "minutes": 4,
+      "oneway": false
+    },
+    {
+      "u": 27,
+      "v": 1,
+      "km": 3.1,
+      "minutes": 7,
+      "oneway": false
+    },
+    {
+      "u": 17,
+      "v": 9,
+      "km": 4.0,
+      "minutes": 5,
+      "oneway": true
+    },
+    {
+      "u": 7,
+      "v": 11,
+      "km": 2.3,
+      "minutes": 6,
+      "oneway": false
+    },
+    {
+      "u": 11,
+      "v": 22,
+      "km": 1.8,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 22,
+      "v": 23,
+      "km": 1.7,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 5,
+      "v": 23,
+      "km": 1.8,
+      "minutes": 6,
+      "oneway": true
+    },
+    {
+      "u": 23,
+      "v": 21,
+      "km": 3.8,
+      "minutes": 9,
+      "oneway": false
+    },
+    {
+      "u": 11,
+      "v": 24,
+      "km": 3.8,
+      "minutes": 8,
+      "oneway": false
+    },
+    {
+      "u": 2,
+      "v": 18,
+      "km": 2.2,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 2,
+      "v": 20,
+      "km": 2.6,
+      "minutes": 6,
+      "oneway": false
+    },
+    {
+      "u": 2,
+      "v": 19,
+      "km": 2.3,
+      "minutes": 7,
+      "oneway": false
+    },
+    {
+      "u": 2,
+      "v": 21,
+      "km": 2.9,
+      "minutes": 8,
+      "oneway": false
+    },
+    {
+      "u": 18,
+      "v": 20,
+      "km": 1.2,
+      "minutes": 4,
+      "oneway": false
+    },
+    {
+      "u": 18,
+      "v": 19,
+      "km": 2.7,
+      "minutes": 9,
+      "oneway": false
+    },
+    {
+      "u": 19,
+      "v": 21,
+      "km": 1.6,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 19,
+      "v": 5,
+      "km": 1.7,
+      "minutes": 6,
+      "oneway": false
+    },
+    {
+      "u": 19,
+      "v": 0,
+      "km": 2.7,
+      "minutes": 9,
+      "oneway": false
+    },
+    {
+      "u": 20,
+      "v": 15,
+      "km": 1.7,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 3,
+      "v": 13,
+      "km": 2.4,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 3,
+      "v": 16,
+      "km": 1.9,
+      "minutes": 4,
+      "oneway": false
+    },
+    {
+      "u": 3,
+      "v": 26,
+      "km": 3.3,
+      "minutes": 6,
+      "oneway": false
+    },
+    {
+      "u": 3,
+      "v": 17,
+      "km": 2.7,
+      "minutes": 4,
+      "oneway": false
+    },
+    {
+      "u": 13,
+      "v": 14,
+      "km": 1.6,
+      "minutes": 4,
+      "oneway": false
+    },
+    {
+      "u": 13,
+      "v": 16,
+      "km": 2.9,
+      "minutes": 8,
+      "oneway": false
+    },
+    {
+      "u": 14,
+      "v": 17,
+      "km": 1.6,
+      "minutes": 4,
+      "oneway": false
+    },
+    {
+      "u": 15,
+      "v": 16,
+      "km": 1.5,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 15,
+      "v": 26,
+      "km": 1.7,
+      "minutes": 5,
+      "oneway": false
+    },
+    {
+      "u": 5,
+      "v": 4,
+      "km": 3.3,
+      "minutes": 10,
+      "oneway": false
+    }
+  ]
+}
